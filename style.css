@@ -79,7 +79,7 @@ button:hover {
   button {
     font-weight: 500;
     font-size: 9px;
-    color: grey;
+    color: black;
     text-decoration: none;
     list-style: none;
   }
@@ -103,6 +103,7 @@ button:hover {
 
 @media (min-width: 499px) {
 }
+
 /* hero section */
 .hero {
   display: flex;
@@ -194,4 +195,10 @@ button:hover {
 
 #titlesecond {
   text-align: center;
+}
+
+@media (max-width: 391px) {
+  .herotextbox h1 {
+    font-size: 4rem;
+  }
 }
